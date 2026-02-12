@@ -93,3 +93,256 @@ ancien_proprietaire
 nouveau_proprietaire
 
 date_echange
+
+
+
+
+TODO FINAL
+
+TOJO – Installation & Structure projet
+ Installer Flight MVC (PRIORITÉ)
+
+ Installer PHP + serveur local
+
+ Installer Flight MVC
+
+ Créer structure MVC :
+/app
+  /controllers
+  /models
+  /views
+/config
+/public
+
+ Configurer connexion MySQL / PostgreSQL
+
+ Créer fichier config BDD
+
+ Initialiser Git (PRIORITÉ)
+
+ Créer repo Git public
+
+ Ajouter README
+
+ Ajouter membres + num ETU
+
+ Partager lien Git
+
+
+
+
+ PHASE 1 – BASE DU PROJET (À FAIRE EN PREMIER)
+1️⃣ Mise en place technique
+
+ Installer serveur local (XAMPP / WAMP / Laragon)
+
+ Installer Flight MVC
+
+ Créer structure MVC (controllers / models / views)
+
+ Configurer connexion MySQL / PostgreSQL
+
+ Initialiser dépôt Git public
+
+ Ajouter README + noms membres + num ETU
+
+2️⃣ Conception Base de Données
+
+ Créer base takalo_takalo
+
+ Créer tables :
+
+ users
+
+ categories
+
+ objets
+
+ photos
+
+ echanges
+
+ historique_objet
+
+ Ajouter clés étrangères
+
+ Ajouter données de test
+
+🔴 PHASE 2 – AUTHENTIFICATION
+3️⃣ Backoffice Admin
+
+ Page login admin (login par défaut affiché)
+
+ Vérification mot de passe
+
+ Gestion session admin
+
+ Protection pages admin
+
+4️⃣ Frontoffice Utilisateur
+
+ Page login utilisateur (email + mot de passe)
+
+ Inscription automatique si email inexistant
+
+ Hash mot de passe
+
+ Session utilisateur
+
+ Bouton déconnexion
+
+🔴 PHASE 3 – GESTION DES CATÉGORIES (ADMIN)
+
+ Ajouter catégorie
+
+ Modifier catégorie
+
+ Supprimer catégorie
+
+ Afficher liste catégories
+
+🔴 PHASE 4 – GESTION DES OBJETS (UTILISATEUR)
+CRUD Objets
+
+ Ajouter objet
+
+titre
+
+description
+
+prix estimatif
+
+catégorie
+
+1 ou plusieurs photos
+
+ Modifier objet
+
+ Supprimer objet
+
+ Afficher liste de mes objets
+
+🔴 PHASE 5 – AFFICHAGE PUBLIC
+
+ Afficher liste objets des autres utilisateurs
+
+ Fiche détaillée objet
+
+ Afficher photos
+
+ Afficher propriétaire actuel
+
+🔴 PHASE 6 – SYSTÈME D’ÉCHANGE (PARTIE PRINCIPALE)
+Proposition d’échange
+
+ Bouton “Proposer échange”
+
+ Sélectionner un de mes objets
+
+ Enregistrer proposition (statut = en_attente)
+
+Gestion des échanges
+
+ Page “Mes échanges”
+
+ Liste propositions reçues
+
+ Accepter échange
+
+ Refuser échange
+
+Si accepté :
+
+ Changer propriétaire des objets
+
+ Enregistrer dans historique_objet
+
+ Mettre statut = accepté
+
+🔴 PHASE 7 – HISTORIQUE D’APPARTENANCE
+
+ Enregistrer chaque changement de propriétaire
+
+ Afficher historique sur fiche objet
+
+ Afficher :
+
+ancien propriétaire
+
+nouveau propriétaire
+
+date + heure
+
+🔴 PHASE 8 – BARRE DE RECHERCHE
+
+ Champ mot-clé (recherche dans titre)
+
+ Filtre par catégorie
+
+ Bouton rechercher
+
+ Afficher résultats filtrés
+
+🔴 PHASE 9 – STATISTIQUES ADMIN
+
+ Nombre total utilisateurs inscrits
+
+ Nombre total échanges acceptés
+
+ Affichage dashboard admin
+
+🔴 PHASE 10 – DESIGN & FINALISATION
+
+ Intégrer template Bootstrap
+
+ Créer layout principal
+
+ Créer layout admin
+
+ Responsive design
+
+ Footer avec noms + num ETU
+
+ Vérifier sécurité basique (sessions protégées)
+
+ Tester tous les scénarios
+
+📦 LIVRABLE FINAL
+
+ Lien Git public
+
+ Lien liste des tâches
+
+ Base de données exportée (.sql)
+
+ Projet fonctionnel
+
+🏁 ORDRE PRIORITAIRE
+
+Base de données
+
+Installation Flight + Git
+
+Authentification
+
+CRUD objets
+
+Système d’échange
+
+Historique
+
+Recherche
+
+Statistiques
+
+Design final
+
+Si tu veux, je peux aussi te faire :
+
+✅ un diagramme MCD clair
+
+✅ un script SQL complet prêt à importer
+
+✅ un planning sur 5 jours optimisé
+
+✅ ou un modèle Trello prêt à copier
