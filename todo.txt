@@ -1,0 +1,22 @@
+todo pour le test
+
+PARTIE 1
+--------------------------------
+
+1-backoffice
+
+Login admin
+
+Gestion cat
+
+
+2-Frontoffice
+
+--Page
+-Login
+
+-gérer(ajouter/modifier/supprimer) ses objets
+
+-liste des objets des autres utilisateur
+
+-Gerer les echanges avec les autres utilisateurs
