@@ -107,11 +107,11 @@ TOJO – Installation & Structure projet
  PHASE 1 – BASE DU PROJET (À FAIRE EN PREMIER)
 1️⃣ Mise en place technique
 
- Installer serveur local (XAMPP / WAMP / Laragon)
+ Installer serveur local (XAMPP / WAMP / Laragon) (ok)
 
- Installer Flight MVC
+ Installer Flight MVC(ok)
 
- Créer structure MVC (controllers / models / views)
+ Créer structure MVC (controllers / models / views)(ok)
 
  Configurer connexion MySQL / PostgreSQL
 
