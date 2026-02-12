@@ -28,70 +28,43 @@ MIALY – Base de données & Architecture
 
  Créer la base takalo_takalo
 
- Créer les tables :
+--Créer les tables :
 
 Table users : 
-
 id
-
 nom
-
 email
-
 mot_de_passe
-
 role (admin / user)
 
-date_inscription
 
 Table categories : 
-
 id
-
 nom
 
 Table objets : 
-
 id
-
 user_id
-
 titre
-
 description
-
 prix_estimatif
-
 categorie_id
-
 date_creation
-
 photos
 
 Table echanges : 
-
 id
-
 objet_demande_id
-
 objet_propose_id
-
 statut (en_attente, accepté, refusé)
-
 date_proposition
-
 date_reponse
 
 Table historique_objet : 
-
 id
-
 objet_id
-
 ancien_proprietaire
-
 nouveau_proprietaire
-
 date_echange
 
 
